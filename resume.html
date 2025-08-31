@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="js/main.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fac8c8;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Resume Container */
+    .resume {
+      background: #fff;
+      width: 850px;
+      margin: 30px auto;
+      padding: 30px 40px;
+      border: 2px solid #333;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #333;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 140px;
+      border-radius: 5px;
+      margin-right: 20px;
+      border: 2px solid #333;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .header-info h2 {
+      margin: 5px 0 12px 0;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .contact {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #999;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .skills-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .skills-container div {
+      width: 50%;
+      padding: 0 15px;
+    }
+
+    /* Add vertical line between columns */
+    .skills-container div:first-child {
+      border-right: 2px solid #ccc;
+    }
+
+    ul {
+      margin: 5px 0 10px 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h2>My Resume</h2>
+    <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="biodata.html">Biodata</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Resume Content -->
+  <div class="resume">
+    <!-- Top Info -->
+    <div class="header">
+      <img src="images/myimage.jpg" alt="Profile Picture">
+      <div class="header-info">
+        <h1>M. A. Aishwarya</h1>
+        <h2>B. E in Computer Science and Engineering</h2>
+        <div class="contact">
+          📞 8867059564 <br>
+          📧 mmaaishwarya@gmail.com <br>
+          📍 Kottur 583134, Vijayanagar district, Karnataka <br>
+          🔗 linkedin.com/in/Aishwarya.M.A
+        </div>
+      </div>
+    </div>
+
+    <!-- Objective -->
+    <div class="section">
+      <h3>Objective</h3>
+      <p>To begin my career in a reputed organization where I can contribute to innovative projects, enhance my technical expertise in software development and system design, and grow into a skilled IT professional.</p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <h3>Education</h3>
+      <ul>
+        <li><b>B.E (CSE)</b> – Smt. Kamala And Sri Venkappa M Agadi College Of Engineering And Technology, Lakshmeshwar (2023–2027)<br>
+        Completed 2st year with avg of 84% and <b>8.73 CGPA</b></li>
+
+        <li><b>PUC (12th)</b> – Kottureshwara Pre-University College Kottur (March 2023)<br>
+        Completed 2nd PUC with <b>85%</b></li>
+
+        <li><b>SSLC (10th)</b> – Gurvdeva Kannada Medium Higher Primary School Kottur (July 2021)<br>
+        Completed SSLC with <b>93.2%</b></li>
+      </ul>
+    </div>
+
+    <!-- Certificates -->
+    <div class="section">
+      <h3>Certificates</h3>
+      <ul>
+        <li>Online C programming test from IIT Bombay (2024)</li>
+        <li>Basic Python programming language at Great Learning Academy (2024)</li>
+        <li>NPTEL soft skills training certificate (2024)</li>
+        <li>Java Programming at InternPe Intership(2025)</li>
+        <li>National Level 24 Hrs.TCE-Hackfinity-2025</li>
+      </ul>
+    </div>
+
+    <!-- Skills & Technical Skills -->
+    <div class="section skills-container">
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Time Management</li>
+          <li>Ability To Work Under Pressure</li>
+          <li>Fast Learner</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Basic 'C' Programming Language</li>
+          <li>Basic Python Programming Language</li>
+          <li>MS Office</li>
+          <li>HTML</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Languages & Interests -->
+    <div class="section skills-container">
+      <div>
+        <h3>Languages</h3>
+        <ul>
+          <li>English</li>
+          <li>Kannada</li>
+          <li>Hindi</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Interests</h3>
+        <ul>
+          <li>Singing</li>
+          <li>Drawing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    2025 M. A. Aishwarya | Contact: mmaaishwarya@gmail.com
+  </footer>
+</body>
+</html>
